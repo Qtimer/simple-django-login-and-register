@@ -44,7 +44,7 @@ class Calculate_numberView(View):
                 'test_function_not_used_directly',
                 test_function_possibly_not_return
             ]
-            for l in function_list():
+            for l in function_list:
                 if isinstance(l, str):
                     eval(l)(a, b)
                 else:
